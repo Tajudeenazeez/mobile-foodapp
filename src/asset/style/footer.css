@@ -1,0 +1,35 @@
+.footer {
+margin-top: 20px;
+margin-bottom: 10px;
+}
+
+.footer-fa {
+    display: flex;
+    font-size: 1.5rem;
+    display: flex;
+    /* width: 200; */
+    align-items: center;
+    justify-content: space-evenly;
+    color: #303030;
+    padding: 2px;
+}
+.footer-caption {
+    display: flex;
+    font-size: 1rem;
+    display: flex;
+    /* width: 200; */
+    align-items: center;
+    justify-content: space-evenly;
+    color: #303030;
+    padding-left: 19px;
+    padding-top: 3px;
+    margin-bottom: 2px;
+}
+.footer::after {
+    content: "";
+    border: 2px solid grey;
+    width: 70px;
+    position: absolute;
+    left: 40%;
+
+}
