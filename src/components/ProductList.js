@@ -10,13 +10,12 @@ const ProductList = ({data}) => {
             <input
                 type="text"
                 placeholder="search"
-               
             />
         <FaSearch  className='fasearch'/>
         </div>
         {    
-          data.map( (product) => {
-            return (<Product product = {product} />)
+          data.map( (product, key) => {
+            return (<Product product = {product} key={key} />)
           })  
         }
      </div>

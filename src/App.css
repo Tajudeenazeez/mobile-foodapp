@@ -46,4 +46,5 @@
 .App {
   max-width: 420px;
   overflow-x: hidden;
+  margin: 0 auto;
 }
